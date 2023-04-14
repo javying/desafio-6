@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+}
+
+
+.sn [class*="col-"] {
+    padding: 0;
+    
+}
+
+
+.hero {
+    background-color: rgba(163, 93, 230, 0.877);
+    color: #d3caca;
+}
+
+
+#cards {
+    text-align: -webkit-center;
+}
+
+
+#galery_img {
+    margin: 1%;
+}
+
+
+#section2_txt {
+    margin: 4% 2%;
+}
+
+
+#forms {
+    padding: 0 10%;
+}
+
+
+#section3 {
+    margin: 2% 0;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .hero {
+        min-height: 600px;
+    }
+    .desktop {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
